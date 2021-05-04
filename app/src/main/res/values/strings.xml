@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="title_room">Room</string>
+    <string name="title_desktop">Escritorio</string>
+    <string name="title_settings">Configuración</string>
+    <string-array name="desk_anims">
+        <item>Solido</item>
+        <item>Fade In OT</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="ip_room">192.168.0.1</string>
+    <string name="ip_desktop">192.168.0.1</string>
+    <string name="mode_dark">NO_DARK</string>
+    <string name="preference_file_key">data</string>
+    <string name="title_bed">Cama</string>
+</resources>
