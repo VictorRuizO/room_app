@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_main">
+
 
     <fragment
         android:id="@+id/navigation_home"
@@ -32,4 +33,14 @@
         android:name="com.example.room.ui.notifications.NotificationsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_config" />
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.example.room.ui.main.MainFragment"
+        android:label="@string/title_room"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
 </navigation>

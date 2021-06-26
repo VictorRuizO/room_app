@@ -2,6 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/ic_room"
+        android:title="@string/title_room" />
+
+    <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_bed"
         android:title="@string/title_bed" />
